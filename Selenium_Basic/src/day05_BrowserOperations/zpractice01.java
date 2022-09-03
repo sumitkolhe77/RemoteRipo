@@ -24,7 +24,7 @@ public class zpractice01 {
 		System.out.println("Forgot your password, page url: "+driver.getCurrentUrl());
 		driver.navigate().back();
 		System.out.println("Login page url: "+driver.getCurrentUrl());
-		
+		driver.close();
 	}
 
 }
